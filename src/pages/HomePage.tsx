@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FlipWords } from "../components/ui/flip-words";
-import MainPage from "./MainPage";
+import Second from "./Second";
 
 function HomePage() {
   const [translate, setTranslate] = useState({ x: 0, y: 0 });
@@ -11,30 +11,34 @@ function HomePage() {
     setTranslate({ x: randomX, y: randomY });
   };
   if (showComponent) {
-    return <MainPage />;
+    return <Second />;
   }
 
   return (
     <div className="h-lvh flex flex-col justify-center">
-      <div className="items-center justify-center flex flex-col font-display mx-auto">
+      <div className="items-center justify-center flex flex-col font-baloo mx-auto">
         <img src="../../public/1.gif" alt="Cute Icon" className="size-52" />
-        <h1 className="font-bold text-pink-500 text-[1.8rem] text-center">
-          happy birthday <br /> my
-          <FlipWords
-            words={["girlfriend", "love", "half", "only one"]}
-            className="text-pink-500"
-          />
-        </h1>
+        <div className="font-bold text-[1.8rem] text-center flex flex-col justify-center items-center">
+          <h1 className=" font-baloo">Hello my </h1>
+          <p className="text-red-700">
+            <FlipWords
+              words={["love", "beauty", "girl"]}
+              className="text-red-700"
+            />
+          </p>
+        </div>
         <div className="flex flex-col gap-2 my-4 text-center items-center justify-center relative">
-          <p className=" text-pink-600 text-lg">Do You Love Me?</p>
-          <div className="flex gap-2">
+          <p className=" text-red-500 text-lg font-semibold">
+            Do you want to see your gift?
+          </p>
+          <div className="flex gap-2 font-semibold">
             <button
               className="border-2  text-white rounded-lg py-2 px-8 hover:bg-green-600 transition-all bg-green-400"
               onClick={() => setShowComponent(true)}
             >
               YES!!!
             </button>
-            {showComponent && <MainPage />}
+            {showComponent && <Second />}
             <button
               className="border-1 rounded-lg py-2 px-8 transition-transform duration-300 border-black bg-red-500 text-white"
               style={{

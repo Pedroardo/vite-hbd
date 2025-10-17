@@ -1,3 +1,4 @@
+import { desc } from "motion/react-client";
 import LoaderGambar1 from "../public/20231022_141734.jpg";
 import LoaderGambar2 from "../public/20231029_195905(0).jpg";
 import LoaderGambar3 from "../public/img1.jpg";
@@ -68,5 +69,24 @@ export const DraggableImg = [
     image:
       "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     className: "absolute top-8 left-[30%] rotate-[4deg]",
+  },
+];
+
+export const NavCard = [
+  {
+    id: 1,
+    image: LoaderGambar1,
+  },
+  {
+    id: 2,
+    image: LoaderGambar1,
+  },
+  {
+    id: 3,
+    image: LoaderGambar1,
+  },
+  {
+    id: 4,
+    image: LoaderGambar1,
   },
 ];

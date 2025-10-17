@@ -1,7 +1,7 @@
 import { useState } from "react";
 import HomePage from "./pages/HomePage";
 import PreLoader from "./pages/PreLoader";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router";
 function App() {
   const [loadingDone, setLoadingDone] = useState(false);
 
@@ -10,9 +10,11 @@ function App() {
       {!loadingDone ? (
         <PreLoader onFinish={() => setLoadingDone(true)} />
       ) : (
-        <div>
-          <HomePage />
-        </div>
+        <Router>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+          </Routes>
+        </Router>
       )}
     </div>
   );
