@@ -10,7 +10,7 @@ function MainPage() {
     <div>
       <audio src="../../public/fix-you.mp3" autoPlay loop></audio>
       <DraggableCardContainer className="relative flex min-h-screen w-full items-center justify-center overflow-clip">
-        <p className="absolute top-1/2 mx-auto max-w-sm -translate-y-3/4 text-center  font-black text-neutral-500 text-4xl dark:text-neutral-800">
+        <p className="absolute top-1/2 mx-8 max-w-sm -translate-y-3/4 text-center  font-black text-neutral-500 text-[26px] dark:text-neutral-800 font-baloo">
           every year, you grow wiser, kinder, and even more amazing. happy
           birthday, my girl ❤️
         </p>

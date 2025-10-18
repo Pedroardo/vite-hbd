@@ -4,6 +4,9 @@ import LoaderGambar2 from "../public/20231029_195905(0).jpg";
 import LoaderGambar3 from "../public/img1.jpg";
 import LoaderGambar4 from "../public/img2.jpg";
 import LoaderGambar5 from "../public/img3.jpg";
+import NavImg from "../public/nav-img.svg";
+import Flower from "../public/flower.svg";
+
 export const LoadingGambar = [
   {
     id: 1,
@@ -75,18 +78,45 @@ export const DraggableImg = [
 export const NavCard = [
   {
     id: 1,
-    image: LoaderGambar1,
+    image: NavImg,
+    link: "/memories",
   },
   {
     id: 2,
-    image: LoaderGambar1,
+    image: Flower,
+    link: "",
   },
   {
     id: 3,
     image: LoaderGambar1,
+    link: "",
   },
   {
     id: 4,
     image: LoaderGambar1,
+    link: "",
+  },
+];
+
+export const reviews = [
+  {
+    id: 1,
+    img: LoaderGambar4,
+  },
+  {
+    id: 2,
+    img: LoaderGambar5,
+  },
+  {
+    id: 3,
+    img: LoaderGambar1,
+  },
+  {
+    id: 4,
+    img: LoaderGambar2,
+  },
+  {
+    id: 5,
+    img: LoaderGambar3,
   },
 ];

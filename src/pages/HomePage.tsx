@@ -20,12 +20,12 @@ function HomePage() {
         <img src="../../public/1.gif" alt="Cute Icon" className="size-52" />
         <div className="font-bold text-[1.8rem] text-center flex flex-col justify-center items-center">
           <h1 className=" font-baloo">Hello my </h1>
-          <p className="text-red-700">
+          <span className="text-red-700">
             <FlipWords
               words={["love", "beauty", "girl"]}
-              className="text-red-700"
+              className="text-red-600"
             />
-          </p>
+          </span>
         </div>
         <div className="flex flex-col gap-2 my-4 text-center items-center justify-center relative">
           <p className=" text-red-500 text-lg font-semibold">
@@ -33,14 +33,14 @@ function HomePage() {
           </p>
           <div className="flex gap-2 font-semibold">
             <button
-              className="border-2  text-white rounded-lg py-2 px-8 hover:bg-green-600 transition-all bg-green-400"
+              className="border-2  text-white rounded-lg py-2 px-8 hover:bg-green-700 transition-all bg-green-600"
               onClick={() => setShowComponent(true)}
             >
               YES!!!
             </button>
             {showComponent && <Second />}
             <button
-              className="border-1 rounded-lg py-2 px-8 transition-transform duration-300 border-black bg-red-500 text-white"
+              className="border-1 rounded-lg py-2 px-8 transition-transform duration-300 border-black bg-red-600 text-white"
               style={{
                 transform: `translate(${translate.x}px, ${translate.y}px)`,
               }}
