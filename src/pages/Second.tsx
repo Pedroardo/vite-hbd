@@ -1,4 +1,4 @@
-import { act, useState } from "react";
+import { useState } from "react";
 import Card from "../components/Card";
 import { NavCard } from "../data";
 import HomePage from "./HomePage";
@@ -30,7 +30,7 @@ function Second() {
       </div>
       <button
         onClick={handleClick}
-        className="shadow-[inset_0_0_0_2px_#616467] text-black px-6  sm:px-12 py-3 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 mx-auto my-5"
+        className="border-red-600 border-3  text-black px-6  sm:px-12 py-3 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 mx-auto my-5"
       >
         <IoReturnUpBack />
       </button>

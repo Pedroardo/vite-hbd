@@ -10,6 +10,11 @@ interface PreloaderProps {
 const PreLoader = ({ onFinish }: PreloaderProps) => {
   const [step, setStep] = useState<"first" | "second">("first");
 
+  function shuffle(array: []) {
+    return array.sort(() => Math.random() - 0.5);
+  }
+  const randomizeImage = shuffle(LoadingGambar);
+
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setStep("second"), 3000;
@@ -33,8 +38,8 @@ const PreLoader = ({ onFinish }: PreloaderProps) => {
         <div>
           <InfiniteMovingCards
             direction="right"
-            speed="fast"
-            items={LoadingGambar}
+            speed="slow"
+            items={randomizeImage}
           />
         </div>
       )}
