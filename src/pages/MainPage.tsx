@@ -19,12 +19,9 @@ function MainPage() {
           <DraggableCardBody className={item.className}>
             <img
               src={item.image}
-              alt={item.title}
+              alt={"Draggable Img"}
               className="pointer-events-none relative z-10 h-80 w-80 object-cover"
             />
-            <h3 className="mt-4 text-center text-2xl font-bold text-neutral-700 dark:text-neutral-300">
-              {item.title}
-            </h3>
           </DraggableCardBody>
         ))}
       </DraggableCardContainer>

@@ -208,36 +208,76 @@ export const LoadingGambar = [
     id: 39,
     quote: LoaderGambar39,
   },
+  {
+    id: 40,
+    quote: LoaderGambar40,
+  },
+  {
+    id: 41,
+    quote: LoaderGambar41,
+  },
+  {
+    id: 42,
+    quote: LoaderGambar42,
+  },
+  {
+    id: 43,
+    quote: LoaderGambar43,
+  },
+  {
+    id: 44,
+    quote: LoaderGambar44,
+  },
+  {
+    id: 45,
+    quote: LoaderGambar45,
+  },
+  {
+    id: 46,
+    quote: LoaderGambar46,
+  },
+  {
+    id: 47,
+    quote: LoaderGambar47,
+  },
+  {
+    id: 48,
+    quote: LoaderGambar48,
+  },
 ];
 
 export const DraggableImg = [
   {
-    image: "../public/IMG-20251025-WA0032.jpg",
+    image: "../public/IMG-20251031-WA0030.jpg",
     className: "absolute top-10 left-[20%] rotate-[-5deg]",
   },
   {
-    image: "../public/IMG-20251025-WA0043.jpg",
+    image: "../public/IMG-20251031-WA0043.jpg",
     className: "absolute top-40 left-[25%] rotate-[-7deg]",
   },
   {
-    image: "../public/IMG-20251025-WA0033.jpg",
+    image: "../public/IMG-20251031-WA0037.jpg",
     className: "absolute top-5 left-[40%] rotate-[8deg]",
   },
   {
-    image: "../public/IMG-20251025-WA0041.jpg",
+    image: "../public/IMG-20251031-WA0041.jpg",
     className: "absolute top-32 left-[55%] rotate-[10deg]",
   },
   {
-    image: "../public/IMG-20251025-WA0038.jpg",
+    image: "../public/IMG-20251031-WA0038.jpg",
     className: "absolute top-20 right-[35%] rotate-[2deg]",
   },
   {
-    image: "../public/IMG-20251025-WA0039.jpg",
+    image: "../public/IMG-20251031-WA0039.jpg",
     className: "absolute top-24 left-[45%] rotate-[-7deg]",
   },
   {
-    image: "../public/IMG-20251025-WA0042.jpg",
+    image: "../public/IMG-20251031-WA0042.jpg",
     className: "absolute top-8 left-[30%] rotate-[4deg]",
+  },
+  {
+    image: "../public/IMG-20251031-WA0036.jpg",
+    className: "absolute top-10 left-[20%] rotate-[-5deg]",
   },
 ];
 
@@ -284,5 +324,17 @@ export const reviews = [
   {
     id: 5,
     img: LoaderGambar3,
+  },
+  {
+    id: 6,
+    img: LoaderGambar6,
+  },
+  {
+    id: 7,
+    img: LoaderGambar7,
+  },
+  {
+    id: 8,
+    img: LoaderGambar8,
   },
 ];
