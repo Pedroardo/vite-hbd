@@ -50,6 +50,7 @@ import LoaderGambar48 from "../public/IMG-20251031-WA0043.jpg";
 import NavImg from "../public/nav-img.svg";
 import Flower from "../public/flower.svg";
 import Love from "../public/love.svg";
+import today from "../public/best-today.svg";
 
 export const LoadingGambar = [
   {
@@ -299,7 +300,7 @@ export const NavCard = [
   },
   {
     id: 4,
-    image: LoaderGambar1,
+    image: today,
     link: "",
   },
 ];
