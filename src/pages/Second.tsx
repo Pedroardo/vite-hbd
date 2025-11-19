@@ -2,7 +2,6 @@ import { useState } from "react";
 import Card from "../components/Card";
 import { NavCard } from "../data";
 import HomePage from "./HomePage";
-import { IoReturnUpBack } from "react-icons/io5";
 
 function Second() {
   const [active, setActive] = useState(false);
