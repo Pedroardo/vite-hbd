@@ -290,8 +290,7 @@ export const NavCard = [
     id: 2,
     image: Flower,
     link: "/bouquet",
-  }
-  
+  },
 ];
 
 export const reviews = [

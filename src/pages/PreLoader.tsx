@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { LoaderFive } from "../components/ui/loader";
 import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
 import { LoadingGambar } from "../data.ts";
 
@@ -10,7 +9,7 @@ interface PreloaderProps {
 const PreLoader = ({ onFinish }: PreloaderProps) => {
   const [step, setStep] = useState<"first" | "second">("first");
 
-  function shuffle(array: []) {
+  function shuffle<T>(array: T[]): T[] {
     return array.sort(() => Math.random() - 0.5);
   }
   const randomizeImage = shuffle(LoadingGambar);
@@ -33,7 +32,7 @@ const PreLoader = ({ onFinish }: PreloaderProps) => {
   return (
     <div className="w-screen flex h-screen fixed items-center justify-center bg-[#d3d1b9] z-50">
       {step === "first" ? (
-        <LoaderFive text="Loading dulu..." />
+        "Loading..."
       ) : (
         <div>
           <InfiniteMovingCards
