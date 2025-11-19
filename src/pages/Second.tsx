@@ -30,7 +30,7 @@ function Second() {
       </div>
       <button
         onClick={handleClick}
-        className="border-red-600 border-3 bg-white  text-black px-6  sm:px-12 py-3 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 mx-auto my-5"
+        className="border-red-600 border-3 bg-white  text-black px-6  sm:px-12 py-3 rounded-full tracking-widest uppercase font-bold  hover:bg-[#ef5e5e] hover:text-white dark:text-neutral-200 transition duration-200 mx-auto my-5"
       >
         <IoReturnUpBack />
       </button>
