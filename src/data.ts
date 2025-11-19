@@ -47,6 +47,15 @@ import LoaderGambar46 from "../public/IMG-20251031-WA0041.jpg";
 import LoaderGambar47 from "../public/IMG-20251031-WA0042.jpg";
 import LoaderGambar48 from "../public/IMG-20251031-WA0043.jpg";
 
+import dragg1 from "../public/IMG-20251031-WA0030.jpg";
+import dragg2 from "../public/IMG-20251031-WA0043.jpg";
+import dragg3 from "../public/IMG-20251031-WA0037.jpg";
+import dragg4 from "../public/IMG-20251031-WA0041.jpg";
+import dragg5 from "../public/IMG-20251031-WA0038.jpg";
+import dragg6 from "../public/IMG-20251031-WA0039.jpg";
+import dragg7 from "../public/IMG-20251031-WA0042.jpg";
+import dragg8 from "../public/IMG-20251031-WA0036.jpg";
+
 import NavImg from "../public/nav-img.svg";
 import Flower from "../public/flower.svg";
 
@@ -247,35 +256,35 @@ export const LoadingGambar = [
 
 export const DraggableImg = [
   {
-    image: "../public/IMG-20251031-WA0030.jpg",
+    image: dragg1,
     className: "absolute top-10 left-[20%] rotate-[-5deg]",
   },
   {
-    image: "../public/IMG-20251031-WA0043.jpg",
+    image: dragg2,
     className: "absolute top-40 left-[25%] rotate-[-7deg]",
   },
   {
-    image: "../public/IMG-20251031-WA0037.jpg",
+    image: dragg3,
     className: "absolute top-5 left-[40%] rotate-[8deg]",
   },
   {
-    image: "../public/IMG-20251031-WA0041.jpg",
+    image: dragg4,
     className: "absolute top-32 left-[55%] rotate-[10deg]",
   },
   {
-    image: "../public/IMG-20251031-WA0038.jpg",
+    image: dragg5,
     className: "absolute top-20 right-[35%] rotate-[2deg]",
   },
   {
-    image: "../public/IMG-20251031-WA0039.jpg",
+    image: dragg6,
     className: "absolute top-24 left-[45%] rotate-[-7deg]",
   },
   {
-    image: "../public/IMG-20251031-WA0042.jpg",
+    image: dragg7,
     className: "absolute top-8 left-[30%] rotate-[4deg]",
   },
   {
-    image: "../public/IMG-20251031-WA0036.jpg",
+    image: dragg8,
     className: "absolute top-10 left-[20%] rotate-[-5deg]",
   },
 ];
