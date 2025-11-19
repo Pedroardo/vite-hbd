@@ -24,6 +24,7 @@ function HomePage() {
             <FlipWords
               words={["love", "beauty", "girl"]}
               className="text-red-600"
+              duration={3000}
             />
           </span>
         </div>
