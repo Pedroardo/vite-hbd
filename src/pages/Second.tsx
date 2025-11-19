@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Card from "../components/Card";
-import { NavCard } from "../data";
 import HomePage from "./HomePage";
+
+import NavImg from "../../public/nav-img.svg";
+import Flower from "../../public/flower.svg";
 
 function Second() {
   const [active, setActive] = useState(false);
@@ -23,9 +24,21 @@ function Second() {
         </p>
       </div>
       <div className="mx-auto px-6 grid grid-cols-2 gap-5">
-        {NavCard.map((item) => {
-          return <Card children={item.image} link={item.link} />;
-        })}
+        <a
+          href="/memories"
+          className="rounded-2xl p-4 bg-[#faf3f3] border-4 cursor-pointer border-red-700 hover:scale-105 flex flex-col justify-center transition-all duration-300 w-36 hover:rotate-2 sm:w-44 max-h-48"
+        >
+          <img src={NavImg} alt="Album" />
+        </a>
+        <a
+          href="/bouquet"
+          className="rounded-2xl p-4 bg-[#faf3f3] border-4 cursor-pointer border-red-700 hover:scale-105 flex flex-col justify-center transition-all duration-300 w-36 hover:rotate-2 sm:w-44 max-h-48"
+        >
+          <img src={Flower} alt="Bouquet" />
+        </a>
+        {/* {NavCard.map((item, index) => {
+          return <Card children={item.image} link={item.link} key={index} />;
+        })} */}
       </div>
       <button
         onClick={handleClick}
