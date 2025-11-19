@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FlipWords } from "../components/ui/flip-words";
 import Second from "./Second";
-
+import cuteIcon from "../../public/1.gif";
 function HomePage() {
   const [translate, setTranslate] = useState({ x: 0, y: 0 });
   const [showComponent, setShowComponent] = useState(false);
@@ -17,7 +17,7 @@ function HomePage() {
   return (
     <div className="h-lvh flex flex-col justify-center">
       <div className="items-center justify-center flex flex-col font-baloo mx-auto">
-        <img src="../../public/1.gif" alt="Cute Icon" className="size-52" />
+        <img src={cuteIcon} alt="Cute Icon" className="size-52" />
         <div className="font-bold text-[1.8rem] text-center flex flex-col justify-center items-center">
           <h1 className=" font-baloo">Hello my </h1>
           <span className="text-red-700">
